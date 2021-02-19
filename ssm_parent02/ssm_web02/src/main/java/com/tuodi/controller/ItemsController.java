@@ -19,6 +19,7 @@ public class ItemsController {
     @RequestMapping("/findAll")
     public String findAll(){
         System.out.println(itemsService.findAll());
+		int a = 1;
 		int b = 2;
         return "success";
     }
